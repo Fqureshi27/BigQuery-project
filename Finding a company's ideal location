@@ -1,4 +1,4 @@
-What they are looking for:
+Task Goal/What they are looking for:
 -Average temperature to be between 45 and 65
 -Average commute to be less than 60 minutes
 -Happiness ranking to be less than 15
@@ -16,7 +16,7 @@ WHERE avg_temp BETWEEN 45 and 65
  AND happiness_ranking <= 15
 /* this query is the final query to find out and allows the company to decide between the two best cities that match what theyd ideally want in a location where they can start their company. */
 
-Alernate version:
+Alernate Task Goal:
 -Company wants average temperature to be between 65 and 85
 -Want commute to be less than 80 minutes
 
@@ -28,3 +28,6 @@ FROM city_data.cities
 WHERE avg_temp BETWEEN 65 and 85
  AND avg_commute < 80
 /* this result gives you a much larger amount of cities to choose from than the first set of criteria */
+
+Key Takeaways:
+First dataset with its set of criteria gave a result of two cities to choose from which was Dublin and Toronto and second set of criteria gave 11 cities to choose as a starting location.
