@@ -1,0 +1,17 @@
+What they are looking for:
+-Average temperature to be between 45 and 65
+-Average commute to be less than 60 minutes
+-Happiness ranking to be less than 15
+
+Queries:
+SELECT 
+ avg_temp,
+ avg_commute,
+ happiness_ranking
+FROM city_data.cities
+WHERE avg_temp BETWEEN 45 and 65
+/* this query narrows it down based on the temperatures to the top 11 cities */
+ AND avg_commute < 60
+ /* this narrows it down to the top 8 cities where this company can lcoate to*/
+ AND happiness_ranking <= 15
+/* this query is the final query to find out and allows the company to decide between the two best cities that match what theyd ideally want in a location where they can start their company. */
