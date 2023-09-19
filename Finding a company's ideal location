@@ -30,4 +30,4 @@ WHERE avg_temp BETWEEN 65 and 85
 /* this result gives you a much larger amount of cities to choose from than the first set of criteria */
 
 Key Takeaways:
-First dataset with its set of criteria gave a result of two cities to choose from which was Dublin and Toronto and second set of criteria gave 11 cities to choose as a starting location.
+First dataset with its set of criteria gave a result of 2 cities to choose from which was Dublin and Toronto and second set of criteria gave 11 cities to choose as a starting location.
